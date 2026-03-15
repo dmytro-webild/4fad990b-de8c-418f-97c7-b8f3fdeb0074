@@ -25,17 +25,15 @@ export default function PricingPage() {
     >
       <div id="nav" data-section="nav">
         <NavbarLayoutFloatingInline
-          brandName="OmeChat"
+          brandName="Webild"
           navItems={[
-            { name: "Home", id: "home" },
-            { name: "Features", id: "features" },
-            { name: "About", id: "about" },
-            { name: "Contact", id: "contact" },
+            { name: "Home", id: "/" },
+            { name: "Features", id: "#features" },
+            { name: "About", id: "/about" },
+            { name: "Contact", id: "/contact" },
           ]}
           button={{
-            text: "Start Chatting",
-            href: "/",
-          }}
+            text: "Start Chatting",            href: "/"}}
           animateOnLoad={true}
         />
       </div>
@@ -49,44 +47,20 @@ export default function PricingPage() {
           tagAnimation="slide-up"
           metrics={[
             {
-              id: "1",
-              value: "Free",
-              title: "Basic Plan",
-              items: [
-                "Unlimited video chats",
-                "Basic matching",
-                "HD video quality",
-              ],
+              id: "1",              value: "Free",              title: "Basic Plan",              items: [
+                "Unlimited video chats",                "Basic matching",                "HD video quality"],
             },
             {
-              id: "2",
-              value: "$4.99",
-              title: "Premium Plan",
-              items: [
-                "Advanced filters",
-                "Priority matching",
-                "Ad-free experience",
-              ],
+              id: "2",              value: "$4.99",              title: "Premium Plan",              items: [
+                "Advanced filters",                "Priority matching",                "Ad-free experience"],
             },
             {
-              id: "3",
-              value: "$9.99",
-              title: "Pro Plan",
-              items: [
-                "All Premium features",
-                "Custom filters",
-                "24/7 priority support",
-              ],
+              id: "3",              value: "$9.99",              title: "Pro Plan",              items: [
+                "All Premium features",                "Custom filters",                "24/7 priority support"],
             },
             {
-              id: "4",
-              value: "$14.99",
-              title: "Elite Plan",
-              items: [
-                "All Pro features",
-                "Exclusive community",
-                "VIP badge",
-              ],
+              id: "4",              value: "$14.99",              title: "Elite Plan",              items: [
+                "All Pro features",                "Exclusive community",                "VIP badge"],
             },
           ]}
           animationType="slide-up"
@@ -94,9 +68,7 @@ export default function PricingPage() {
           useInvertedBackground={true}
           buttons={[
             {
-              text: "View All Plans",
-              href: "/",
-            },
+              text: "View All Plans",              href: "/"},
           ]}
           buttonAnimation="blur-reveal"
         />
@@ -111,44 +83,24 @@ export default function PricingPage() {
           tagAnimation="slide-up"
           faqs={[
             {
-              id: "1",
-              title: "Can I cancel my subscription anytime?",
-              content: "Yes! You can cancel your subscription at any time. There are no long-term contracts or hidden fees. Your subscription will remain active until the end of your current billing cycle.",
-            },
+              id: "1",              title: "Can I cancel my subscription anytime?",              content: "Yes! You can cancel your subscription at any time. There are no long-term contracts or hidden fees. Your subscription will remain active until the end of your current billing cycle."},
             {
-              id: "2",
-              title: "Do you offer refunds?",
-              content: "We offer a 7-day money-back guarantee if you're not satisfied with your subscription. If you cancel within 7 days, we'll refund your payment in full.",
-            },
+              id: "2",              title: "Do you offer refunds?",              content: "We offer a 7-day money-back guarantee if you're not satisfied with your subscription. If you cancel within 7 days, we'll refund your payment in full."},
             {
-              id: "3",
-              title: "How often are you charged?",
-              content: "All subscriptions are charged monthly on your billing date. You'll receive an email receipt after each charge. You can view and manage your subscription in your account settings.",
-            },
+              id: "3",              title: "How often are you charged?",              content: "All subscriptions are charged monthly on your billing date. You'll receive an email receipt after each charge. You can view and manage your subscription in your account settings."},
             {
-              id: "4",
-              title: "Are there annual billing options?",
-              content: "Yes! We offer annual billing with a 20% discount compared to monthly pricing. Choose the annual option when upgrading to save money.",
-            },
+              id: "4",              title: "Are there annual billing options?",              content: "Yes! We offer annual billing with a 20% discount compared to monthly pricing. Choose the annual option when upgrading to save money."},
             {
-              id: "5",
-              title: "What payment methods do you accept?",
-              content: "We accept all major credit cards (Visa, Mastercard, American Express), PayPal, and Apple Pay. Your payment information is encrypted and securely processed.",
-            },
+              id: "5",              title: "What payment methods do you accept?",              content: "We accept all major credit cards (Visa, Mastercard, American Express), PayPal, and Apple Pay. Your payment information is encrypted and securely processed."},
             {
-              id: "6",
-              title: "Can I upgrade or downgrade my plan?",
-              content: "Absolutely! You can change your plan at any time. If you upgrade, you'll be prorated for the additional features. If you downgrade, the changes take effect at your next billing cycle.",
-            },
+              id: "6",              title: "Can I upgrade or downgrade my plan?",              content: "Absolutely! You can change your plan at any time. If you upgrade, you'll be prorated for the additional features. If you downgrade, the changes take effect at your next billing cycle."},
           ]}
           faqsAnimation="slide-up"
           textboxLayout="default"
           useInvertedBackground={false}
           buttons={[
             {
-              text: "Still have questions?",
-              href: "/contact",
-            },
+              text: "Still have questions?",              href: "/contact"},
           ]}
           buttonAnimation="blur-reveal"
         />
@@ -160,22 +112,14 @@ export default function PricingPage() {
           description="Our team is ready to answer any questions about our pricing and help you find the perfect plan for your needs."
           inputs={[
             {
-              name: "name",
-              type: "text",
-              placeholder: "Your Name",
-              required: true,
+              name: "name",              type: "text",              placeholder: "Your Name",              required: true,
             },
             {
-              name: "email",
-              type: "email",
-              placeholder: "Your Email",
-              required: true,
+              name: "email",              type: "email",              placeholder: "Your Email",              required: true,
             },
           ]}
           textarea={{
-            name: "message",
-            placeholder: "Tell us which plan interests you...",
-            rows: 4,
+            name: "message",            placeholder: "Tell us which plan interests you...",            rows: 4,
             required: true,
           }}
           useInvertedBackground={false}
@@ -189,14 +133,14 @@ export default function PricingPage() {
 
       <div id="footer" data-section="footer">
         <FooterLogoEmphasis
-          logoText="OmeChat"
+          logoText="Webild"
           columns={[
             {
               items: [
                 { label: "Home", href: "/" },
-                { label: "Features", href: "#features" },
+                { label: "Features", href: "/#features" },
                 { label: "About", href: "/about" },
-                { label: "Pricing", href: "/pricing" },
+                { label: "Contact", href: "/contact" },
               ],
             },
             {
