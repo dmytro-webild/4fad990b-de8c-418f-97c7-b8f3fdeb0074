@@ -195,7 +195,7 @@ export default function HomePage() {
         <HeroCentered
           title="Connect with Strangers from Around the World"
           description="Experience the thrill of random video chat. Meet new people, make friends, and have meaningful conversations instantly. No sign-up required—just click and connect."
-          background="gradient-bars"
+          background={{ variant: "gradient-bars" }}
           avatars={[
             {
               src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Azm8yfAPJyb1mzjrikJIHhKG1a/a-diverse-young-person-smiling-warmly-at-1773609390102-50d0b667.png",
