@@ -179,7 +179,7 @@ export default function PricingPage() {
             required: true,
           }}
           useInvertedBackground={false}
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Azm8yfAPJyb1mzjrikJIHhKG1a/a-welcoming-contact-illustration-showing-1773609390349-f8d6ebb0.png"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Azm8yfAPJyb1mzjrikJIHhKG1a/a-welcoming-contact-illustration-showing-1773609390349-f8d6ebb0.png?_wi=1"
           imageAlt="Contact Us"
           mediaAnimation="slide-up"
           mediaPosition="right"
